@@ -1,0 +1,9 @@
+s1={}
+s=[1,2,3]
+s2=s1.fromkeys(s,"abd")
+print(s2)
+print(s2.get(1))
+print(s2.keys())
+print(s2.values())
+print(s2.pop(1))
+print(s2.popitem())
